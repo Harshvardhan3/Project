@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FITNESS BAND</title>
+    <link rel="shortcut icon" href="gym.jpg.webp"type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- <link rel="preconnect" href="https://fonts.googleapis.com"> -->
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;400&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200;400&display=swap" rel="stylesheet">
+    <style>
+        body{
+            color:white;
+            padding:0px; 
+             margin:0px;
+            background-image: url('https://wallpaperaccess.com/full/1535444.jpg');
+            background-repeat: no-repeat;
+            font-family: 'Source Sans Pro', sans-serif;
+            
+        }
+        .left{
+            /* color:white; */
+            display:inline-block;
+            /* border:2px solid rgb(9, 11, 9); */
+            position:absolute;
+            left:34px;
+            top:20px;
+        }
+        .mid{
+            display:block;
+            width:33%;
+            margin:12px auto;
+            /* border:2px solid rgb(27, 27, 6); */
+            
+        }
+        .right{
+            display:inline-block;
+            /* border:2px solid rgb(28, 16, 16); */
+            position: absolute;
+            right:34px;
+            top:20px;
+        }
+        .navbar li{
+            display: inline-block;
+            /* padding:22px; */
+        }
+        .navbar li a{
+            color:white;
+            text-decoration: none;
+            padding:30px 20px;
+        }
+        .navbar li a:hover, .navbar li a:active{
+            text-decoration: underline;
+
+            color:rgb(90, 28, 61);
+        }
+        .left img{
+            width:120px;
+            /* filter:invert(100%); */
+
+        }
+        .left div{
+            text-align: center;
+            top:20px;
+            color:goldenrod;
+        }
+        .button{
+            padding:0px 12px;
+            margin:10px;
+            background-color: grey;
+            border:2px solid grey ;
+            border-radius: 10px;
+            font-size: medium;
+            /* text-align: center; */
+        }
+        .button:hover{
+            color:purple;
+            /* text-decoration: underline; */
+            background-color: white;
+            
+        }
+        .topic{
+            border:2px solid white;
+            margin:200px 120px;
+            padding:32px 32px;
+            width:33%;
+            border-radius: 10px;
+        }
+        .form input{
+            text-align:center;
+           
+            padding:0px;
+            border-radius:10px;
+            display:block;
+            margin: 0px auto;
+            font-size:20px;
+            /* font-family: 'Source Sans Pro', sans-serif; */
+            font-family: 'Source Sans Pro', sans-serif;  
+
+        }
+        .topic h1{
+            text-align: center;
+            /* margin:auto; */
+            /* border: 1px solid white; */
+        }
+        .topic button{
+            display: block;
+            /* margin:3px 130px; */
+            margin:auto;
+            padding:2px 2px;
+            width:47%;
+        }
+
+    </style>
+</head>
+
+
+<body>
+
+    <header class="head">
+        <div class="left">
+          <img src="https://i.pinimg.com/originals/01/c5/8b/01c58bc85e1615b53d1b065bfba280cf.png" alt="">
+          <div>
+              FITNESS BAND
+          </div>
+
+        </div>
+        <div class="mid">
+
+
+            <ul class="navbar">
+                <li><a href="h.html" class="active">HOME</a></li>
+                <li><a href="a.html">ABOUT US</a></li>
+                <li><a href="c.html">CONTACT US</a></li>
+            </ul>
+             
+        </div>
+        <div class="right">
+            <button class="button">Call Us</button>
+            <button class="button">Email Us</button>
+                
+        </div>
+
+
+    </header>
+    <!-- <br><br><br><br><br><br><br><br> -->
+    <div class="topic">
+        <h1>Join Now.</h1>
+        <form action="noaction.php">
+            <div class="form">
+              
+                 <input type="text" name="" placeholder="Enter Your Name"><br>
+                    <input type="number" name="" placeholder="Enter Your Number"><br>
+                    <input type="email" name="" placeholder="Enter Your mail">    <br>  
+            </div>
+            
+            <button class="button">Submit</button>
+        </form>
+       
+    </div>
+    
+</body>
+</html>
